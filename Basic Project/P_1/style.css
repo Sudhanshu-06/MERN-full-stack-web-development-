@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+    
+}
+body{
+    background-color: #2c2c2c;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+
+}
+ul li a{
+    margin: 0 5px;
+    border: 2px solid black;
+    padding: 0 px 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.logo{
+    border: 2px solid white;
+    padding: 10px 5px;
+}
+.signup{
+    background-color: white;
+    color: black;
+}
+.signup:hover{
+    background-color: black;
+    color: white;
+}
+main{
+    display: flex;
+    height: 90vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 150px;
+    flex-wrap: wrap;
+}
+main h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+main p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 31px;
+    margin: 30px 0;
+}
+.btn:hover{
+    background-color: #2c2c2c;
+    color: white;
+    border: 2px solid white;
+
+}
+.contentleft{
+    flex:1;
+}
+.contentmid{
+    flex:2;
+}
+.contentright{
+    flex:1;
+}
+.merc{
+    max-height: 500px;
+    height: auto;
+}
+.btn{
+padding: 15px 30px;
+background: white;
+outline: none;
+border: none;
+color: black;
+border-radius: 50px;
+font-weight: 700;
+}
+
+
+
