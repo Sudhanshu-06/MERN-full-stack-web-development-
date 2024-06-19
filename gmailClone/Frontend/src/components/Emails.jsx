@@ -1,8 +1,18 @@
 import React from 'react'
+import Email from './Email';
+
 
 const Emails = () => {
   return (
-    <div>Emails</div>
+    <div>
+      <Email/>
+      <Email/>
+      <Email/>
+      <Email/>
+      <Email/>
+      <Email/>
+      <Email/>
+    </div>
   )
 }
 
